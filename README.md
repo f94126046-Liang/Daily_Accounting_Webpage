@@ -31,15 +31,3 @@
 記帳資料與預算使用瀏覽器 localStorage 儲存在目前裝置的目前瀏覽器。關閉網頁後，資料通常仍會保留；GitHub Pages 只負責提供網頁檔案，不會自動將每位訪客的記帳內容同步到雲端。
 
 **資料不會自動同步到其他裝置。若清除瀏覽器資料、換用其他瀏覽器或更換裝置，資料可能會遺失。需要跨裝置同步時，必須另外建置雲端儲存或帳號登入功能。** 建議使用「匯出備份」保存 JSON 檔，並可在另一個瀏覽器匯入。
-
-## 在 GitHub Pages 公開
-
-1. 登入 GitHub，建立一個新的公開 repository，例如 haohaoji-ledger。
-2. 將本資料夾中的 index.html 和 README.md 上傳到 repository 根目錄。
-3. 在 repository 開啟 **Settings → Pages**。
-4. 在 **Build and deployment** 選擇 **Deploy from a branch**，Branch 選 main，資料夾選 /(root)，按 **Save**。
-5. 等待 GitHub Pages 部署完成，回到 Pages 頁面複製網站網址。通常格式為 https://你的GitHub帳號.github.io/haohaoji-ledger/。
-6. 用無痕視窗開啟公開網址，試著新增一筆記帳、重新整理頁面，確認資料留在同一個瀏覽器。
-7. 繳交時在文字輸入區貼上網站連結、網站介面截圖、規格文字說明，並依課程規定填寫標題。
-
-> 公開的是網頁程式本身。每位訪客新增的資料存在訪客自己的瀏覽器，不會公開給 repository 擁有者，也不會在不同訪客或裝置間共享。
